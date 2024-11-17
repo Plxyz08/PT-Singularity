@@ -1,0 +1,13 @@
+.homepage {
+    background: url("../assets/svgs/fondo.svg") no-repeat center top !important;
+    background-size: cover !important;
+    min-height: 100vh;
+  }
+  
+ 
+  .homepage main {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  

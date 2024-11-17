@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+@font-face {
+  font-family: "Gibson";
+  src: url("/singularity-health/src/pages/LoginPage.jsx") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.login-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: url("/src/assets/icons/login.svg") no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+
+@media (max-width: 768px) {
+  .login-background {
+    background-size: contain;
+  }
+}
+
+.button-disabled {
+  pointer-events: none; 
+  opacity: 0.5; 
+  background-color: #c4c4c4; 
+  color: #ffffff; 
+  cursor: not-allowed;
+}
+
+.submit-button:disabled {
+  pointer-events: none; 
+  background-color: #c4c4c4; 
+  color: #ffffff; 
+  box-shadow: none; 
+  cursor: not-allowed; 
+}
+
+.submit-button:hover:disabled {
+  background-color: #c4c4c4; 
+  box-shadow: none; 
+  cursor: not-allowed; 
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  font-family: "Gibson", sans-serif;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.vertical-bar {
+  width: 8px;
+  height: 30px;
+  background: #ff6752;
+  opacity: 1;
+  border-radius: 1px;
+  margin-right: 20px;
+}
+
+.login-left {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logo-container1 {
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  height: 300px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo1 {
+  width: 150px;
+  height: auto;
+}
+
+.login-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-title {
+  text-align: left;
+  font-size: 2rem;
+  letter-spacing: 0px;
+  color: #4d4f5c;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 80%;
+  max-width: 400px;
+  padding: 12px 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-shadow: 2px 3px 4px #00000029;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.input-error {
+  border: 2px solid #ff4d4f;
+  animation: shake 0.3s;
+}
+
+.forgot-password {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: right;
+  font: normal normal normal 14px/13px Open Sans;
+  color: #a4afb7;
+  opacity: 1;
+}
+
+.submit-button {
+  display: block;
+  margin: 0 auto 15px;
+  width: 239px;
+  height: 70px;
+  padding: 12px 16px;
+  background-color: #4487ff;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 38px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0px 3px 6px #2c1dad29;
+  opacity: 1;
+}
+
+.submit-button:active {
+  transform: translateY(0);
+}
+
+.register-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  font: normal normal normal 14px/13px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #a4afb7;
+  text-transform: uppercase;
+}
+
+.register-span {
+  color: #015f91;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25%,
+  75% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+.Toastify__toast-container {
+  font-family: "Open Sans", sans-serif;
+}
+.Toastify__toast {
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+.Toastify__toast--success {
+  background-color: #81e284;
+  color: #ffffff;
+}
+.Toastify__toast--error {
+  background-color: #e79193;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .login-left {
+    margin-top: 20px;
+  }
+  .login-right {
+    margin-top: 20px;
+  }
+  .welcome-title {
+    font-size: 1.5rem;
+  }
+  .input-field,
+  .submit-button {
+    width: 100%;
+  }
+  .submit-button {
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-title {
+    font-size: 1.2rem;
+  }
+  .vertical-bar {
+    height: 30px;
+  }
+  .forgot-password,
+  .register-link {
+    font-size: 12px;
+  }
+}
