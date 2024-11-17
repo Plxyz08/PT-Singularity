@@ -54,7 +54,7 @@ Sigue estos pasos para ejecutar y desplegar el proyecto:
 ### 2. Clonar el Repositorio
 
     git clone https://github.com/Plxyz08/PT-Singularity.git
-    cd singularity-health
+    cd PT-Singularity
 
 ### 3. Instalar Dependencias
 
