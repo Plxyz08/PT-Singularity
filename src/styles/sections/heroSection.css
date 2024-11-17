@@ -97,3 +97,17 @@
     max-width: 550px;
   }
   
+@media (max-width: 1400px) {
+  .dog-image {
+      width: 90%;
+      max-width: 500px; 
+  }
+}
+
+@media (max-width: 1000px) {
+  .home-content p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+}

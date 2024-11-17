@@ -3,25 +3,24 @@ import { useState } from "react";
 import "../styles/sections/feedbackSection.css";
 import Section from "../components/Section";
 
-
 const FeedbackSection = () => {
   const feedbacks = [
     {
       id: 1,
-      name: "Jane Doe",
-      description: "Amazing service! My pet loved it!",
+      name: "Camilo Sanchez",
+      description: "Fetch! Pet Care treated my pet like family. The best experience ever!",
       image: petLogo,
     },
     {
       id: 2,
-      name: "John Smith",
-      description: "Highly recommend Fetch! Pet Care.",
+      name: "Sebastian Muñoz",
+      description: "Trustworthy and caring service. My dog felt so comfortable!",
       image: petLogo,
     },
     {
       id: 3,
-      name: "Emily Johnson",
-      description: "Super convenient and reliable!",
+      name: "Nazly Porras",
+      description: "Reliable and loving pet care. I’m a customer for life!",
       image: petLogo,
     },
   ];
@@ -45,7 +44,7 @@ const FeedbackSection = () => {
       id="feedback"
       content={
         <div className="feedback-section">
-          <h2 className="title">Here´s what pet owners have to</h2>
+          <h2 className="title">Here’s what pet owners have to</h2>
           <h2 className="title">say about Fetch! Pet Care...</h2>
           <div className="content">
             <button

@@ -144,3 +144,32 @@
   right: -400px;
   transform: translateY(-10%);
 }
+
+@media (max-width: 1400px) {
+  .feedback-cards {
+    max-width: 80%;
+    margin-left: 10%;
+  }
+
+  .feedback-section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .feedback-cards {
+    max-width: 90%;
+    margin-left: 5%;
+  }
+
+  .feedback-section {
+    padding: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .feedback-card {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}

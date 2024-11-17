@@ -91,7 +91,7 @@ const LoginPage = () => {
           <button
             type="submit"
             disabled={!isFormValid}
-            className={`submit-button ${!isFormValid ? "button-disabled" : ""}`}
+            className={`submit-button1 ${!isFormValid ? "button-disabled" : ""}`}
           >
             {isLoading ? "Cargando..." : "INICIAR SESIÓN"}
           </button>
