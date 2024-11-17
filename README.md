@@ -32,13 +32,13 @@ La aplicación consta de las siguientes vistas:
 
 ### 🛠️ Tecnologías Utilizadas
 
-    React: Biblioteca para construir interfaces de usuario.
-    Vite: Herramienta de desarrollo rápida para aplicaciones modernas.
-    Tailwind CSS: Framework para estilos CSS.
+- **React**: Biblioteca para construir interfaces de usuario.
+- **Vite**: Herramienta de desarrollo rápida para aplicaciones modernas.
+- **Tailwind CSS**: Framework para estilos CSS.
 
 ### API Utilizada
 
-- **Login Endpoint**: [https://reqres.in/api/login](https://reqres.in/api/login)
+- **Login Endpoint**: [https://reqres.in/api/](https://reqres.in/api/)
 
 ---
 
@@ -53,18 +53,14 @@ Sigue estos pasos para ejecutar y desplegar el proyecto:
 
 ### 2. Clonar el Repositorio
 
-    ```bash
     git clone https://github.com/Plxyz08/PT-Singularity.git
     cd singularity-health
-    ```
 
 ### 3. Instalar Dependencias
 
 Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 
-    ```bash
     npm install
-    ```
 
 ### 4. Configurar el Entorno
 
@@ -74,9 +70,7 @@ El proyecto no requiere configuración adicional ya que utiliza la API pública 
 
 Para iniciar el servidor de desarrollo, utiliza:
 
-    ```bash
     npm run dev
-    ```
 La aplicación estará disponible en http://localhost:3000 (o en el puerto asignado por Vite).
 
 ### Desarrollado por Sebastian Muñoz
