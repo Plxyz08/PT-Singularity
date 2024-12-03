@@ -5,11 +5,11 @@ export default {
     extend: {
       fontFamily: {
         // eslint-disable-next-line no-undef
-        sans: ['Poppins', ...defaultTheme.fontFamily.sans], // Usa "Poppins" como en el XD
+        sans: ['Poppins', ...defaultTheme.fontFamily.sans], 
       },
       colors: {
-        primary: '#f58435', // Naranja principal del fondo
-        secondary: '#ffffff', // Blanco
+        primary: '#f58435', 
+        secondary: '#ffffff',
       },
     },
   },
